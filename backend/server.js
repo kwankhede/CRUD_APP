@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const dbConfig = require("./database/db");
+const dotenv = require("dotenv");
 
 // Express Route
 const studentRoute = require("../backend/routes/student.route");

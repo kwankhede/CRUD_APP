@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const dotenv = require("dotenv");
 
 // Student Model
 const studentSchema = require("../models/Student");

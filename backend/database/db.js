@@ -1,3 +1,3 @@
 module.exports = {
-  db: "mongodb+srv://kapilwankhede2204:0GufORnJeKAvtG8A@quizz.dsnaknj.mongodb.net/recatdb",
+  db: "mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@quizz.dsnaknj.mongodb.net/recatdb",
 };
